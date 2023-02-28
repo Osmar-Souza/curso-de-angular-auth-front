@@ -1,0 +1,18 @@
+.btn-vermelho{
+  width: 100%;
+  height: 60px;
+  margin: 25px 0 0;
+  left: 508px;
+  top: 570px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+
+  background: #DD0330;
+  border-radius: 10px;
+
+  &:disabled{
+    cursor: no-drop;
+    background: darken(#DD0330, 20%);
+  }
+}
